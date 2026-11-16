@@ -100,15 +100,21 @@
     </mj-section>
     <mj-section css-class="spacer-block block" background-color="#ffffff" padding="0">
       <mj-column>
-        <mj-spacer height="6px" />
+        <mj-spacer height="9px" />
       </mj-column>
     </mj-section>
     <!-- END: Signature -->
 
     <!-- START: Divider (receipt) -->
     <!-- The source's hr: a 1px #9a9a9a line (its faint #eeeeee lower edge is
-         dropped). Padding cut to the source's hr margins and empty lines. -->
-    <mj-section css-class="block divider-block" background-color="#ffffff" padding="36px 18px 0">
+         dropped). Spacing is NOT the source's: its <br><hr> left 42 to 46px
+         above every line and 9 to 10px below, so the line hugged the heading
+         under it. Every divider on this page now has 27px of clear space each
+         side, as the Guardian email's divider does: the catalog Divider's 18px
+         top and bottom padding plus a 9px gap (the signature's gap above this
+         one, this block's own gap under the next two). No gap below this one:
+         the receipt paragraph's 10px top margin does that job (18 + 10 = 28). -->
+    <mj-section css-class="block divider-block" background-color="#ffffff" padding="18px 18px">
       <mj-column>
         <mj-divider border-width="1px" border-style="solid" border-color="#9A9A9A" />
       </mj-column>
@@ -129,9 +135,14 @@
     <!-- END: Gift Receipt -->
 
     <!-- START: Divider (matching gift) -->
-    <mj-section css-class="block divider-block" background-color="#ffffff" padding="36px 18px 9px">
+    <mj-section css-class="block divider-block" background-color="#ffffff" padding="18px 18px">
       <mj-column>
         <mj-divider border-width="1px" border-style="solid" border-color="#9A9A9A" />
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="spacer-block block" background-color="#ffffff" padding="0">
+      <mj-column>
+        <mj-spacer height="9px" />
       </mj-column>
     </mj-section>
     <!-- END: Divider (matching gift) -->
@@ -157,9 +168,14 @@
     <!-- END: WYSIWYG Text (matching gift) -->
 
     <!-- START: Divider (take action) -->
-    <mj-section css-class="block divider-block" background-color="#ffffff" padding="36px 18px 9px">
+    <mj-section css-class="block divider-block" background-color="#ffffff" padding="18px 18px">
       <mj-column>
         <mj-divider border-width="1px" border-style="solid" border-color="#9A9A9A" />
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="spacer-block block" background-color="#ffffff" padding="0">
+      <mj-column>
+        <mj-spacer height="9px" />
       </mj-column>
     </mj-section>
     <!-- END: Divider (take action) -->

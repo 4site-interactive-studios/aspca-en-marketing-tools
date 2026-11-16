@@ -22,11 +22,11 @@
   "local": [
     {
       "name": "annual-membership-thank-you.html",
-      "bytes": 65072
+      "bytes": 69182
     },
     {
       "name": "annual-membership-thank-you.mjml",
-      "bytes": 14139
+      "bytes": 14959
     },
     {
       "name": "assets/aspca-ack-confirmation-pg-ad-car-donate-Nov2024_r1.jpg",
@@ -106,11 +106,11 @@
     },
     {
       "name": "one-time-thank-you.html",
-      "bytes": 64125
+      "bytes": 68235
     },
     {
       "name": "one-time-thank-you.mjml",
-      "bytes": 13192
+      "bytes": 14012
     },
     {
       "name": "styles.css",
@@ -120,11 +120,11 @@
   "en": [
     {
       "name": "annual-membership-thank-you.html",
-      "bytes": 51156
+      "bytes": 54070
     },
     {
       "name": "annual-membership-thank-you.mjml",
-      "bytes": 15111
+      "bytes": 15931
     },
     {
       "name": "en-blocks-import.json",
@@ -152,11 +152,11 @@
     },
     {
       "name": "one-time-thank-you.html",
-      "bytes": 50370
+      "bytes": 53284
     },
     {
       "name": "one-time-thank-you.mjml",
-      "bytes": 14164
+      "bytes": 14984
     },
     {
       "name": "styles.css",
