@@ -81,6 +81,8 @@
 
 /* EN's inliner writes these onto each element at send (guide 2). */
 p { margin: 10px 0; padding: 0; }
+/* Lists keep the paragraph rhythm: 10px, not the browser's 16px. */
+ul, ol { margin: 10px 0; }
 h1 { margin: 0; font-size: 26px; line-height: 33px; font-weight: bold; }
 img { -ms-interpolation-mode: bicubic; }
 
@@ -282,8 +284,13 @@ a { color: #3b6e91; }
       
       <!--[if mso | IE]></td></tr></table><![endif]-->
     
-    <!-- END: Header Image --><!-- START: WYSIWYG Text --><!-- No gap: the last paragraph's 10px margin is the whole space above the
-         benefits image, as in the source. -->
+    <!-- END: Header Image --><!-- START: WYSIWYG Text --><!-- Spacing rhythm on every page (2026-11-16, cleaned up from the
+         source's empty paragraphs and <br>&nbsp;<br> lines):
+           text to text (paragraphs, lists, Sincerely)         10px
+           text to an image, the signature or the grey panel  18-19px
+           around a divider line                              27-28px
+         Here: the last paragraph's 10px margin + this 9px gap = 19px above
+         the benefits image. -->
       
       <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="block-outlook text-block-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
@@ -344,10 +351,60 @@ a { color: #3b6e91; }
       </div>
     
       
+      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="spacer-block-outlook block-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    
+      
+      <div  class="spacer-block block" style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+        
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style="direction:ltr;font-size:0px;padding:0;text-align:center;"
+              >
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+            
+      <div
+         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+      >
+        
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   style="font-size:0px;word-break:break-word;"
+                >
+                  
+      <div
+         style="height:9px;line-height:9px;"
+      >&#8202;</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
       <!--[if mso | IE]></td></tr></table><![endif]-->
     
-    <!-- END: WYSIWYG Text --><!-- START: Image 1x1 (inset) --><!-- 9px padding + 54px gap + the next paragraph's 10px margin = 73px,
-         against the source's 72px (an empty paragraph under the image). -->
+    <!-- END: WYSIWYG Text --><!-- START: Image 1x1 (inset) --><!-- 9px gap + the next paragraph's 10px margin = 19px below, matching
+         the 19px above. The source left 72px here (an empty paragraph). -->
       
       <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="block-outlook image-block-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
@@ -360,7 +417,7 @@ a { color: #3b6e91; }
           <tbody>
             <tr>
               <td
-                 style="direction:ltr;font-size:0px;padding:0 18px 9px;text-align:center;"
+                 style="direction:ltr;font-size:0px;padding:0 18px;text-align:center;"
               >
                 <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:564px;" ><![endif]-->
             
@@ -441,7 +498,7 @@ a { color: #3b6e91; }
                 >
                   
       <div
-         style="height:54px;line-height:54px;"
+         style="height:9px;line-height:9px;"
       >&#8202;</div>
     
                 </td>
@@ -496,57 +553,8 @@ a { color: #3b6e91; }
                   
       <div
          style="font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;text-align:left;color:#202020;"
-      ><p>As a reminder, you can change or cancel your monthly contribution at any time by visiting our&nbsp;<a href="https://www.aspca.org/guardians?ms=em_ack_monthly-guardianpage-201909&amp;initialms=em_ack_monthly-guardianpage-201909&amp;utm_medium=email&amp;utm_campaign=auto-acknowledgement&amp;utm_source=monthly-guardianpage-201909" target="_blank"><strong>Guardians web page</strong></a>&nbsp;or calling our member support line (800) 628-0028. Please allow up to 30 days for any changes to take effect.<br />&nbsp;<br />The success of our lifesaving programs begins with dedicated friends like you and we're honored to welcome you to the ASPCA. On behalf of the animals we serve, thank you for your generous support.&nbsp;</p></div>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-      </div>
-    
-          <!--[if mso | IE]></td></tr></table><![endif]-->
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        
-      </div>
-    
-      
-      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="spacer-block-outlook block-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    
-      
-      <div  class="spacer-block block" style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
-        
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
-        >
-          <tbody>
-            <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:0;text-align:center;"
-              >
-                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
-            
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
-        
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   style="font-size:0px;word-break:break-word;"
-                >
-                  
-      <div
-         style="height:18px;line-height:18px;"
-      >&#8202;</div>
+      ><p>As a reminder, you can change or cancel your monthly contribution at any time by visiting our&nbsp;<a href="https://www.aspca.org/guardians?ms=em_ack_monthly-guardianpage-201909&amp;initialms=em_ack_monthly-guardianpage-201909&amp;utm_medium=email&amp;utm_campaign=auto-acknowledgement&amp;utm_source=monthly-guardianpage-201909" target="_blank"><strong>Guardians web page</strong></a>&nbsp;or calling our member support line (800) 628-0028. Please allow up to 30 days for any changes to take effect.</p>
+          <p>The success of our lifesaving programs begins with dedicated friends like you and we're honored to welcome you to the ASPCA. On behalf of the animals we serve, thank you for your generous support.&nbsp;</p></div>
     
                 </td>
               </tr>
@@ -567,7 +575,7 @@ a { color: #3b6e91; }
       
       <!--[if mso | IE]></td></tr></table><![endif]-->
     
-    <!-- END: WYSIWYG Text (reminder) --><!-- START: Signature -->
+    <!-- No gap: Sincerely is the next paragraph, 10px down. --><!-- END: WYSIWYG Text (reminder) --><!-- START: Signature -->
       
       <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="block-outlook signature-block-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
@@ -789,7 +797,7 @@ a { color: #3b6e91; }
                 >
                   
       <div
-         style="height:18px;line-height:18px;"
+         style="height:9px;line-height:9px;"
       >&#8202;</div>
     
                 </td>

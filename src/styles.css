@@ -19,6 +19,8 @@
 
 /* EN's inliner writes these onto each element at send (guide 2). */
 p { margin: 10px 0; padding: 0; }
+/* Lists keep the paragraph rhythm: 10px, not the browser's 16px. */
+ul, ol { margin: 10px 0; }
 h1 { margin: 0; font-size: 26px; line-height: 33px; font-weight: bold; }
 img { -ms-interpolation-mode: bicubic; }
 

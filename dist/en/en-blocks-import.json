@@ -1,23 +1,23 @@
 [
   {
     "clientId": 20014,
-    "createdOn": 1794865775984,
-    "modifiedOn": 1794865775984,
+    "createdOn": 1794866692156,
+    "modifiedOn": 1794866692156,
     "ownedBy": 999999,
     "folderId": 0,
     "name": "Utility — Template Styles",
     "type": "CUSTOM",
     "thumbnail": "https://bd6ca9cefa6fb6e0adf1-c2f9aa1adb9f60a775f60074e4c86031.ssl.cf5.rackcdn.com/20014/thumbnail-template-styles.png",
-    "content": "<span id=\"head-styles\" class=\"marketing-tools-banner\" aria-hidden=\"true\" style=\"display: none;\"></span>\n<style type=\"text/css\">\n  :is(body):has(.en__emailbuilder__block) #head-styles:before{ content: \"CSS Styles Block\"; }\n</style>\n<style type=\"text/css\">\n#outlook a{padding:0}\nbody{margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}\ntable, td{border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt}\nimg{border:0;height:auto;line-height:100%;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic}\np{display:block;margin:13px 0}\n@media only screen and (min-width:480px){\n  .mj-column-per-100{width:100% !important;max-width:100%}\n  .mj-column-per-50{width:50% !important;max-width:50%}\n  .mj-column-px-320{width:320px !important;max-width:320px}\n  .mj-column-px-59{width:59px !important;max-width:59px}\n  .mj-column-px-49{width:49px !important;max-width:49px}\n  .mj-column-px-52{width:52px !important;max-width:52px}\n  .mj-column-px-50{width:50px !important;max-width:50px}\n  .mj-column-px-51{width:51px !important;max-width:51px}\n}\n@media screen and (min-width:480px){\n  .moz-text-html .mj-column-per-100{width:100% !important;max-width:100%}\n  .moz-text-html .mj-column-per-50{width:50% !important;max-width:50%}\n  .moz-text-html .mj-column-px-320{width:320px !important;max-width:320px}\n  .moz-text-html .mj-column-px-59{width:59px !important;max-width:59px}\n  .moz-text-html .mj-column-px-49{width:49px !important;max-width:49px}\n  .moz-text-html .mj-column-px-52{width:52px !important;max-width:52px}\n  .moz-text-html .mj-column-px-50{width:50px !important;max-width:50px}\n  .moz-text-html .mj-column-px-51{width:51px !important;max-width:51px}\n}\n@media only screen and (max-width:479px){\n  table.mj-full-width-mobile{width:100% !important}\n  td.mj-full-width-mobile{width:auto !important}\n}\np{margin:10px 0;padding:0}\nh1{margin:0;font-size:26px;line-height:33px;font-weight:bold}\nimg{-ms-interpolation-mode:bicubic}\na{color:#3b6e91}\n.link-sky a{color:#2baadf}\n.link-charcoal a{color:#363636}\n.link-slate a{color:#656565}\n@media only screen and (max-width:480px){\n  .footer-text div{font-size:14px !important;line-height:21px !important}\n  .image-grid-left{padding-bottom:18px !important}\n  .social-icons{width:320px !important;max-width:320px !important}\n}\n</style>",
+    "content": "<span id=\"head-styles\" class=\"marketing-tools-banner\" aria-hidden=\"true\" style=\"display: none;\"></span>\n<style type=\"text/css\">\n  :is(body):has(.en__emailbuilder__block) #head-styles:before{ content: \"CSS Styles Block\"; }\n</style>\n<style type=\"text/css\">\n#outlook a{padding:0}\nbody{margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}\ntable, td{border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt}\nimg{border:0;height:auto;line-height:100%;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic}\np{display:block;margin:13px 0}\n@media only screen and (min-width:480px){\n  .mj-column-per-100{width:100% !important;max-width:100%}\n  .mj-column-per-50{width:50% !important;max-width:50%}\n  .mj-column-px-320{width:320px !important;max-width:320px}\n  .mj-column-px-59{width:59px !important;max-width:59px}\n  .mj-column-px-49{width:49px !important;max-width:49px}\n  .mj-column-px-52{width:52px !important;max-width:52px}\n  .mj-column-px-50{width:50px !important;max-width:50px}\n  .mj-column-px-51{width:51px !important;max-width:51px}\n}\n@media screen and (min-width:480px){\n  .moz-text-html .mj-column-per-100{width:100% !important;max-width:100%}\n  .moz-text-html .mj-column-per-50{width:50% !important;max-width:50%}\n  .moz-text-html .mj-column-px-320{width:320px !important;max-width:320px}\n  .moz-text-html .mj-column-px-59{width:59px !important;max-width:59px}\n  .moz-text-html .mj-column-px-49{width:49px !important;max-width:49px}\n  .moz-text-html .mj-column-px-52{width:52px !important;max-width:52px}\n  .moz-text-html .mj-column-px-50{width:50px !important;max-width:50px}\n  .moz-text-html .mj-column-px-51{width:51px !important;max-width:51px}\n}\n@media only screen and (max-width:479px){\n  table.mj-full-width-mobile{width:100% !important}\n  td.mj-full-width-mobile{width:auto !important}\n}\np{margin:10px 0;padding:0}\nul, ol{margin:10px 0}\nh1{margin:0;font-size:26px;line-height:33px;font-weight:bold}\nimg{-ms-interpolation-mode:bicubic}\na{color:#3b6e91}\n.link-sky a{color:#2baadf}\n.link-charcoal a{color:#363636}\n.link-slate a{color:#656565}\n@media only screen and (max-width:480px){\n  .footer-text div{font-size:14px !important;line-height:21px !important}\n  .image-grid-left{padding-bottom:18px !important}\n  .social-icons{width:320px !important;max-width:320px !important}\n}\n</style>",
     "data": {
       "replacements": {}
     },
-    "exportId": 785984
+    "exportId": 702156
   },
   {
     "clientId": 20014,
-    "createdOn": 1794865775984,
-    "modifiedOn": 1794865775984,
+    "createdOn": 1794866692156,
+    "modifiedOn": 1794866692156,
     "ownedBy": 999999,
     "folderId": 0,
     "name": "Preheader Text",
@@ -326,12 +326,12 @@
         }
       }
     },
-    "exportId": 785985
+    "exportId": 702157
   },
   {
     "clientId": 20014,
-    "createdOn": 1794865775984,
-    "modifiedOn": 1794865775984,
+    "createdOn": 1794866692156,
+    "modifiedOn": 1794866692156,
     "ownedBy": 999999,
     "folderId": 0,
     "name": "Header Image",
@@ -630,12 +630,12 @@
         }
       }
     },
-    "exportId": 785986
+    "exportId": 702158
   },
   {
     "clientId": 20014,
-    "createdOn": 1794865775984,
-    "modifiedOn": 1794865775984,
+    "createdOn": 1794866692156,
+    "modifiedOn": 1794866692156,
     "ownedBy": 999999,
     "folderId": 0,
     "name": "WYSIWYG Text",
@@ -948,12 +948,12 @@
         }
       }
     },
-    "exportId": 785987
+    "exportId": 702159
   },
   {
     "clientId": 20014,
-    "createdOn": 1794865775984,
-    "modifiedOn": 1794865775984,
+    "createdOn": 1794866692156,
+    "modifiedOn": 1794866692156,
     "ownedBy": 999999,
     "folderId": 0,
     "name": "Image 1x1 (inset)",
@@ -1218,12 +1218,12 @@
         }
       }
     },
-    "exportId": 785988
+    "exportId": 702160
   },
   {
     "clientId": 20014,
-    "createdOn": 1794865775984,
-    "modifiedOn": 1794865775984,
+    "createdOn": 1794866692156,
+    "modifiedOn": 1794866692156,
     "ownedBy": 999999,
     "folderId": 0,
     "name": "Heading (centered)",
@@ -1562,12 +1562,12 @@
         }
       }
     },
-    "exportId": 785989
+    "exportId": 702161
   },
   {
     "clientId": 20014,
-    "createdOn": 1794865775984,
-    "modifiedOn": 1794865775984,
+    "createdOn": 1794866692156,
+    "modifiedOn": 1794866692156,
     "ownedBy": 999999,
     "folderId": 0,
     "name": "Divider",
@@ -1838,12 +1838,12 @@
         }
       }
     },
-    "exportId": 785990
+    "exportId": 702162
   },
   {
     "clientId": 20014,
-    "createdOn": 1794865775984,
-    "modifiedOn": 1794865775984,
+    "createdOn": 1794866692156,
+    "modifiedOn": 1794866692156,
     "ownedBy": 999999,
     "folderId": 0,
     "name": "Signature",
@@ -2372,12 +2372,12 @@
         }
       }
     },
-    "exportId": 785991
+    "exportId": 702163
   },
   {
     "clientId": 20014,
-    "createdOn": 1794865775984,
-    "modifiedOn": 1794865775984,
+    "createdOn": 1794866692156,
+    "modifiedOn": 1794866692156,
     "ownedBy": 999999,
     "folderId": 0,
     "name": "Gift Receipt",
@@ -2794,12 +2794,12 @@
         }
       }
     },
-    "exportId": 785992
+    "exportId": 702164
   },
   {
     "clientId": 20014,
-    "createdOn": 1794865775984,
-    "modifiedOn": 1794865775984,
+    "createdOn": 1794866692156,
+    "modifiedOn": 1794866692156,
     "ownedBy": 999999,
     "folderId": 0,
     "name": "Gift Receipt (boxed)",
@@ -3482,12 +3482,12 @@
         }
       }
     },
-    "exportId": 785993
+    "exportId": 702165
   },
   {
     "clientId": 20014,
-    "createdOn": 1794865775984,
-    "modifiedOn": 1794865775984,
+    "createdOn": 1794866692156,
+    "modifiedOn": 1794866692156,
     "ownedBy": 999999,
     "folderId": 0,
     "name": "Images 2x2",
@@ -4158,12 +4158,12 @@
         }
       }
     },
-    "exportId": 785994
+    "exportId": 702166
   },
   {
     "clientId": 20014,
-    "createdOn": 1794865775984,
-    "modifiedOn": 1794865775984,
+    "createdOn": 1794866692156,
+    "modifiedOn": 1794866692156,
     "ownedBy": 999999,
     "folderId": 0,
     "name": "Footer (links)",
@@ -4626,12 +4626,12 @@
         }
       }
     },
-    "exportId": 785995
+    "exportId": 702167
   },
   {
     "clientId": 20014,
-    "createdOn": 1794865775984,
-    "modifiedOn": 1794865775984,
+    "createdOn": 1794866692156,
+    "modifiedOn": 1794866692156,
     "ownedBy": 999999,
     "folderId": 0,
     "name": "Footer (w/ social icons)",
@@ -5752,12 +5752,12 @@
         }
       }
     },
-    "exportId": 785996
+    "exportId": 702168
   },
   {
     "clientId": 20014,
-    "createdOn": 1794865775984,
-    "modifiedOn": 1794865775984,
+    "createdOn": 1794866692156,
+    "modifiedOn": 1794866692156,
     "ownedBy": 999999,
     "folderId": 0,
     "name": "Utility — RAW HTML",
@@ -5780,12 +5780,12 @@
         }
       }
     },
-    "exportId": 785997
+    "exportId": 702169
   },
   {
     "clientId": 20014,
-    "createdOn": 1794865775984,
-    "modifiedOn": 1794865775984,
+    "createdOn": 1794866692156,
+    "modifiedOn": 1794866692156,
     "ownedBy": 999999,
     "folderId": 0,
     "name": "Utility — Debug Helper",
@@ -5795,6 +5795,6 @@
     "data": {
       "replacements": {}
     },
-    "exportId": 785998
+    "exportId": 702170
   }
 ]

@@ -1,6 +1,6 @@
 # Inert Dropdown Audit — ASPCA
 
-- Generated: 2026-11-16 20:51 UTC · run time 1m 10s
+- Generated: 2026-11-16 22:06 UTC · run time 1m 34s
 - Source: http://127.0.0.1:8644/dist/local/main.mjml
 - Method: each Select option rendered in isolation (every other field at its default) at 600px (desktop — the template breakpoint `min-width:600px` matches) and 375px (mobile), light mode only (dark-scheme media neutralized). A field is INERT at a viewport when every option rasters byte-identical (SHA-256 over RGBA) to the all-defaults baseline — and, for a field whose frame offers an arrangement Select (Layout / Image Position / Column Order), when it stays byte-identical re-swept under each alternate arrangement too; a control any arrangement revives is not inert, and its check names the reviving arrangement. Every image src is stubbed to a fixed per-URL placeholder, so image-URL Selects are exempt by construction (see appendix).
 - Fields: 116 Selects · 116 render-tested · 0 static-exempt · 0 skipped

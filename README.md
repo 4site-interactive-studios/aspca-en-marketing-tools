@@ -156,7 +156,16 @@ The sources used Springboard (Drupal) tokens. Each is replaced by the EN merge t
 
 ## Design system
 
-**Spacing scale** (declared in every page's `en-tools-config`, taken from the sources' own Mailchimp grid, not TPL's): None 0, Third 6, Half 9, Single 18, Double 36, Triple 54. Gutters: Full Bleed 0, Half 9, Single 18, Double 36. Content sits 18px in from the card edge. Paragraphs keep Mailchimp's 10px margins and are not trimmed at the first and last child; every gap was cut against them.
+**Spacing scale** (declared in every page's `en-tools-config`, taken from the sources' own Mailchimp grid, not TPL's): None 0, Third 6, Half 9, Single 18, Double 36, Triple 54. Gutters: Full Bleed 0, Half 9, Single 18, Double 36. Content sits 18px in from the card edge. Paragraphs keep Mailchimp's 10px margins (lists too) and are not trimmed at the first and last child; every gap was cut against them.
+
+**Vertical rhythm** (the visible space between things, on every page; the sources' empty paragraphs and `<br>&nbsp;<br>` lines were cleaned up to it):
+
+| Between | Space | Built from |
+| :-- | :-- | :-- |
+| Text and text (paragraphs, lists, a heading and its copy, the sign-off) | 10px | the paragraph margin |
+| Text and an image, the signature, or the grey receipt panel | 18-19px | the paragraph margin + a Half (9px) gap, or an 18px padding |
+| Anything and a divider line | 27-28px | the Divider's 18px padding + a 9px gap or the paragraph margin |
+
 
 **Type table** (every size the emails ship; guide section 8, item 3a):
 

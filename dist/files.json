@@ -22,11 +22,11 @@
   "local": [
     {
       "name": "annual-membership-thank-you.html",
-      "bytes": 69182
+      "bytes": 69284
     },
     {
       "name": "annual-membership-thank-you.mjml",
-      "bytes": 14959
+      "bytes": 14977
     },
     {
       "name": "assets/aspca-ack-confirmation-pg-ad-car-donate-Nov2024_r1.jpg",
@@ -90,7 +90,7 @@
     },
     {
       "name": "main.html",
-      "bytes": 84687
+      "bytes": 84783
     },
     {
       "name": "main.mjml",
@@ -98,37 +98,37 @@
     },
     {
       "name": "monthly-guardian-thank-you.html",
-      "bytes": 63839
+      "bytes": 64309
     },
     {
       "name": "monthly-guardian-thank-you.mjml",
-      "bytes": 15836
+      "bytes": 16218
     },
     {
       "name": "one-time-thank-you.html",
-      "bytes": 68235
+      "bytes": 68337
     },
     {
       "name": "one-time-thank-you.mjml",
-      "bytes": 14012
+      "bytes": 14030
     },
     {
       "name": "styles.css",
-      "bytes": 2348
+      "bytes": 2444
     }
   ],
   "en": [
     {
       "name": "annual-membership-thank-you.html",
-      "bytes": 54070
+      "bytes": 54103
     },
     {
       "name": "annual-membership-thank-you.mjml",
-      "bytes": 15931
+      "bytes": 15949
     },
     {
       "name": "en-blocks-import.json",
-      "bytes": 329614
+      "bytes": 329637
     },
     {
       "name": "en-template-import.json",
@@ -136,7 +136,7 @@
     },
     {
       "name": "main.html",
-      "bytes": 64139
+      "bytes": 64166
     },
     {
       "name": "main.mjml",
@@ -144,23 +144,23 @@
     },
     {
       "name": "monthly-guardian-thank-you.html",
-      "bytes": 49247
+      "bytes": 49254
     },
     {
       "name": "monthly-guardian-thank-you.mjml",
-      "bytes": 16403
+      "bytes": 16785
     },
     {
       "name": "one-time-thank-you.html",
-      "bytes": 53284
+      "bytes": 53317
     },
     {
       "name": "one-time-thank-you.mjml",
-      "bytes": 14984
+      "bytes": 15002
     },
     {
       "name": "styles.css",
-      "bytes": 2348
+      "bytes": 2444
     }
   ],
   "uploads": [

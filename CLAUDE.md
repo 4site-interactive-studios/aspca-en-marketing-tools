@@ -39,6 +39,7 @@ The annual page is the one-time page with three differences (body copy, Donation
 ## Facts specific to this repo
 
 - Spacing scale is the sources' Mailchimp grid, not TPL's: None 0, Third 6, Half 9, Single 18, Double 36, Triple 54. Paragraph margins stay at 10px and are NOT trimmed at first/last child (styles.css explains why). Do not add TPL's first/last-child trims without re-cutting every gap.
+- Vertical rhythm (README "Design system"): 10px text to text, 18-19px around images, the signature and the grey panel, 27-28px around divider lines. Never use an empty paragraph or `<br>&nbsp;<br>` for space; split the copy into paragraphs and set the gap. Measure a change rather than eyeballing it.
 - Breakpoint 480px. Light mode only; ask the user before adding dark mode.
 - No mechanism CSS (no light/dark twins, no viewport forks), so there is no head-resident `data-en-tools-template-css` sheet. If you add a twin or a fork, add one to every page (guide 2c-bis).
 - Phone type sizes are page-level rules in each autoresponder's `mj-style`, under the spaced condition `(max-width: 480px)`; styles.css's shared phone rules use `(max-width:480px)`. Keep the two strings distinct (guide section 8, item 6f).
@@ -50,5 +51,6 @@ The annual page is the one-time page with three differences (body copy, Donation
 ## Working rules
 
 - Never commit or push unless asked. "Commit" means commit and push.
+- After every commit, give the user the GitHub Pages link: https://4site-interactive-studios.github.io/aspca-en-marketing-tools/ (user request, 2026-11-16). Pages updates only once the commit is on GitHub `main`.
 - Before committing: `git status -sb` must show a branch, not `HEAD (no branch)`. After pushing, `git ls-remote origin <branch>` must equal `git rev-parse HEAD`.
 - When a step does not need the user's input, keep going. Stop and ask before anything destructive or visible outside this repo.

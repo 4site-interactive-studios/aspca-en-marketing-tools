@@ -89,10 +89,10 @@
     <!-- START: Signature -->
     <mj-section css-class="block signature-block" background-color="#ffffff" padding="0 18px">
       <mj-column>
-        <mj-text padding="0 0 36px">
+        <mj-text padding="0 0 18px">
           <p style="margin:0;">Sincerely,</p>
         </mj-text>
-        <mj-image src="https://bd6ca9cefa6fb6e0adf1-c2f9aa1adb9f60a775f60074e4c86031.ssl.cf5.rackcdn.com/20014/aspca-auto-acknowledgement-email_one-time-matt-sig.jpg" alt="Signature" width="80px" align="left" />
+        <mj-image src="https://bd6ca9cefa6fb6e0adf1-c2f9aa1adb9f60a775f60074e4c86031.ssl.cf5.rackcdn.com/20014/aspca-auto-acknowledgement-email_one-time-matt-sig.jpg" alt="Signature" width="80px" align="left" padding="0 0 6px" />
         <mj-text>
           <p style="margin:0;">Matt Bershadker<br />ASPCA President &amp; CEO</p>
         </mj-text>

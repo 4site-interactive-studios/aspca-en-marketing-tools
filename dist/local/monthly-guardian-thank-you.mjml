@@ -76,8 +76,13 @@
     <!-- END: Header Image -->
 
     <!-- START: WYSIWYG Text -->
-    <!-- No gap: the last paragraph's 10px margin is the whole space above the
-         benefits image, as in the source. -->
+    <!-- Spacing rhythm on every page (2026-11-16, cleaned up from the
+         source's empty paragraphs and <br>&nbsp;<br> lines):
+           text to text (paragraphs, lists, Sincerely)         10px
+           text to an image, the signature or the grey panel  18-19px
+           around a divider line                              27-28px
+         Here: the last paragraph's 10px margin + this 9px gap = 19px above
+         the benefits image. -->
     <mj-section css-class="block text-block" background-color="#ffffff" padding="0 18px">
       <mj-column>
         <mj-text>
@@ -94,19 +99,24 @@
         </mj-text>
       </mj-column>
     </mj-section>
+    <mj-section css-class="spacer-block block" background-color="#ffffff" padding="0">
+      <mj-column>
+        <mj-spacer height="9px" />
+      </mj-column>
+    </mj-section>
     <!-- END: WYSIWYG Text -->
 
     <!-- START: Image 1x1 (inset) -->
-    <!-- 9px padding + 54px gap + the next paragraph's 10px margin = 73px,
-         against the source's 72px (an empty paragraph under the image). -->
-    <mj-section css-class="block image-block" background-color="#ffffff" padding="0 18px 9px">
+    <!-- 9px gap + the next paragraph's 10px margin = 19px below, matching
+         the 19px above. The source left 72px here (an empty paragraph). -->
+    <mj-section css-class="block image-block" background-color="#ffffff" padding="0 18px">
       <mj-column>
         <mj-image src="assets/aspca-GUARDIAN_CONFIRM_EMAIL_IMG_UPDATE_V3.png" alt="Guardian Benefits" />
       </mj-column>
     </mj-section>
     <mj-section css-class="spacer-block block" background-color="#ffffff" padding="0">
       <mj-column>
-        <mj-spacer height="54px" />
+        <mj-spacer height="9px" />
       </mj-column>
     </mj-section>
     <!-- END: Image 1x1 (inset) -->
@@ -115,15 +125,12 @@
     <mj-section css-class="block text-block" background-color="#ffffff" padding="0 18px">
       <mj-column>
         <mj-text>
-          <p>As a reminder, you can change or cancel your monthly contribution at any time by visiting our&nbsp;<a href="https://www.aspca.org/guardians?ms=em_ack_monthly-guardianpage-201909&amp;initialms=em_ack_monthly-guardianpage-201909&amp;utm_medium=email&amp;utm_campaign=auto-acknowledgement&amp;utm_source=monthly-guardianpage-201909" target="_blank"><strong>Guardians web page</strong></a>&nbsp;or calling our member support line (800) 628-0028. Please allow up to 30 days for any changes to take effect.<br />&nbsp;<br />The success of our lifesaving programs begins with dedicated friends like you and we're honored to welcome you to the ASPCA. On behalf of the animals we serve, thank you for your generous support.&nbsp;</p>
+          <p>As a reminder, you can change or cancel your monthly contribution at any time by visiting our&nbsp;<a href="https://www.aspca.org/guardians?ms=em_ack_monthly-guardianpage-201909&amp;initialms=em_ack_monthly-guardianpage-201909&amp;utm_medium=email&amp;utm_campaign=auto-acknowledgement&amp;utm_source=monthly-guardianpage-201909" target="_blank"><strong>Guardians web page</strong></a>&nbsp;or calling our member support line (800) 628-0028. Please allow up to 30 days for any changes to take effect.</p>
+          <p>The success of our lifesaving programs begins with dedicated friends like you and we're honored to welcome you to the ASPCA. On behalf of the animals we serve, thank you for your generous support.&nbsp;</p>
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section css-class="spacer-block block" background-color="#ffffff" padding="0">
-      <mj-column>
-        <mj-spacer height="18px" />
-      </mj-column>
-    </mj-section>
+    <!-- No gap: Sincerely is the next paragraph, 10px down. -->
     <!-- END: WYSIWYG Text (reminder) -->
 
     <!-- START: Signature -->
@@ -155,7 +162,7 @@
     </mj-section>
     <mj-section css-class="spacer-block block" background-color="#ffffff" padding="0">
       <mj-column>
-        <mj-spacer height="18px" />
+        <mj-spacer height="9px" />
       </mj-column>
     </mj-section>
     <!-- END: WYSIWYG Text (P.S.) -->
