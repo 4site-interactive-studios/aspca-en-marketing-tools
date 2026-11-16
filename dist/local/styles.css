@@ -1,0 +1,50 @@
+/*
+  ASPCA shared stylesheet.
+
+  Pulled into every page head with mj-include type="css". In the catalog the
+  importer lifts it out into the Template Styles block; each autoresponder
+  carries it in its own head, because EN's autoresponder editor takes one
+  raw-HTML paste and nothing else (guide 2c-bis).
+
+  Spacing model, kept from the Mailchimp sources on purpose: paragraphs keep
+  their 10px top and bottom margins and are NOT trimmed at the first and last
+  child. Every block gap in the MJML was cut against those margins, so adding
+  a first/last-child trim would shift every block by 10px. There are no
+  dark-mode twins and no viewport forks, so this sheet carries no mechanism
+  rules (nothing here reveals hidden content if the sheet goes missing).
+
+  Never write tag-like text in a comment here (guide 2a): the importer parses
+  this sheet as HTML on its way into an mj-style.
+*/
+
+/* EN's inliner writes these onto each element at send (guide 2). */
+p { margin: 10px 0; padding: 0; }
+h1 { margin: 0; font-size: 26px; line-height: 33px; font-weight: bold; }
+img { -ms-interpolation-mode: bicubic; }
+
+/*
+  Link Color hooks. The bare a rule is the Default (the Guardian email's
+  steel blue); each .link-name rule is one option in the importer's Link
+  Color Select. Single declaration each, or the importer ignores the rule
+  (conventions, "Link Color"). Weight is never set here: a bold link is
+  authored as a strong mark, which EN's rich-text editor keeps.
+*/
+a { color: #3b6e91; }
+.link-sky a { color: #2baadf; }
+.link-charcoal a { color: #363636; }
+.link-slate a { color: #656565; }
+
+/*
+  Shared phone rules, from both sources' Mailchimp "Mobile Styles": footer
+  copy steps up 12 to 14px, stacked grid tiles keep the 18px rhythm the
+  desktop rows have, and the social strip holds its 320px (an mj-group goes
+  100% wide on a phone and would spread the six sliced icons apart). The
+  condition string is written once, here; page heads use the spaced form
+  "(max-width: 480px)", which EN treats as a different block and never
+  folds into this one (guide 2a, 8 item 6f).
+*/
+@media only screen and (max-width:480px) {
+  .footer-text div { font-size: 14px !important; line-height: 21px !important; }
+  .image-grid-left { padding-bottom: 18px !important; }
+  .social-icons { width: 320px !important; max-width: 320px !important; }
+}

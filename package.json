@@ -1,0 +1,19 @@
+{
+  "name": "aspca-en-marketing-tools",
+  "version": "1.0.0",
+  "description": "ASPCA's Engaging Networks Marketing Tools catalog and autoresponders, authored in MJML.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "export-en": "node scripts/export-en.mjs",
+    "check-sync": "node scripts/check-sync.mjs",
+    "inert-audit": "node scripts/qa-inert-audit.mjs",
+    "preview": "npx --yes http-server . -p 8643 -c-1"
+  },
+  "author": "4Site Interactive Studios",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "mjml": "^5.2.2"
+  }
+}

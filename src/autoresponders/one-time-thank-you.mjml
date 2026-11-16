@@ -1,0 +1,224 @@
+<mjml lang="en">
+  <mj-head>
+    <!-- en-tools-config {
+      "spacingScale": { "None": 0, "Third": 6, "Half": 9, "Single": 18, "Double": 36, "Triple": 54 },
+      "widthPresets": { "Full Bleed": 0, "Half": 9, "Single": 18, "Double": 36 },
+      "geometryReachPx": 54,
+      "brandColors": { "ASPCA Orange": "#FF6300", "Ink": "#202020", "Charcoal": "#363636", "Slate": "#656565", "Steel Blue": "#3B6E91", "Sky": "#2BAADF", "Silver": "#EAEAEA", "Cloud": "#F0F0F0", "Mist": "#EEEEEE", "Off White": "#FAFAFA", "White": "#FFFFFF" }
+    } -->
+    <!--
+      STANDALONE AUTORESPONDER: the one-time gift thank-you, ported from the
+      ELSE branch of the Springboard one-time/annual auto-acknowledgement
+      (qa/source/onetime-annual-ack.html). EN cannot run the source's Twig
+      branch inside an autoresponder; a donation page sends a Single Gift
+      message and a Recurring Gift message instead, so the annual branch is
+      its own page, annual-membership-thank-you.mjml (user decision
+      2026-11-16). Pasted into EN whole: see the monthly page's head comment
+      for what this page carries, what it omits, and why.
+
+      The source shows its preheader as a visible line above the header (the
+      Preheader Text block). mj-preview carries the same copy, so the inbox
+      snippet reads it twice; README flags the choice for ASPCA.
+    -->
+    <mj-breakpoint width="480px" />
+    <mj-title>Thank You</mj-title>
+    <mj-preview>Your gift will make a big impact on the lives of animals in need. Thank you for supporting the ASPCA.</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="Helvetica, Arial, sans-serif" />
+      <mj-text color="#202020" font-size="16px" line-height="24px" padding="0" css-class="wysiwyg" />
+      <mj-image padding="0" />
+      <mj-divider padding="0" />
+    </mj-attributes>
+    <mj-include path="../styles.css" type="css" />
+    <!-- This page's phone type, from the source's "Mobile Styles": the 12px
+         receipt steps up to 16/24 and h1 steps down to 22/28. Body copy stays
+         16/24. Spaced condition string: see styles.css. -->
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .email-body .receipt-text div { font-size: 16px !important; line-height: 24px !important; }
+        .email-body h1 { font-size: 22px !important; line-height: 28px !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#FAFAFA" css-class="email-body">
+    <!-- START: Main Content -->
+
+    <!-- START: Preheader Text -->
+    <mj-section css-class="block preheader-block" padding="18px 18px">
+      <mj-column>
+        <mj-text align="center" color="#000000" font-size="12px" line-height="16px">Your gift will make a big impact on the lives of animals in need. Thank you for supporting the ASPCA.</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Preheader Text -->
+
+    <!-- START: Header Image -->
+    <!-- No link, as in the source. Alt text added: the source's alt is empty,
+         but the image carries the logo and "Thank You!". -->
+    <mj-section css-class="block header-block" background-color="#ffffff" padding="9px 0 0">
+      <mj-column>
+        <mj-image src="assets/aspca-thank-you.jpg" alt="ASPCA - Thank You!" />
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="spacer-block block" background-color="#ffffff" padding="0">
+      <mj-column>
+        <mj-spacer height="9px" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Header Image -->
+
+    <!-- START: WYSIWYG Text -->
+    <mj-section css-class="block text-block" background-color="#ffffff" padding="0 18px">
+      <mj-column>
+        <mj-text css-class="wysiwyg link-sky">
+          <p>Thank you for supporting the ASPCA! We have successfully processed your gift of {receipt_data~amount~[en1]}.</p>
+          <p>Your support is critical to our ongoing efforts to rescue and protect vulnerable and needy animals. It is thanks to friends like you that we can create and continue the life-saving programs that help so many animals and pet parents across the country. On behalf of the animals we serve, thank you for supporting the ASPCA.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: WYSIWYG Text -->
+
+    <!-- START: Signature -->
+    <mj-section css-class="block signature-block" background-color="#ffffff" padding="0 18px">
+      <mj-column>
+        <mj-text padding="0 0 36px">
+          <p style="margin:0;">Sincerely,</p>
+        </mj-text>
+        <mj-image src="assets/aspca-auto-acknowledgement-email_one-time-matt-sig.jpg" alt="Signature" width="80px" align="left" />
+        <mj-text>
+          <p style="margin:0;">Matt Bershadker<br />ASPCA President &amp; CEO</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="spacer-block block" background-color="#ffffff" padding="0">
+      <mj-column>
+        <mj-spacer height="6px" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Signature -->
+
+    <!-- START: Divider (receipt) -->
+    <!-- The source's hr: a 1px #9a9a9a line (its faint #eeeeee lower edge is
+         dropped). Padding cut to the source's hr margins and empty lines. -->
+    <mj-section css-class="block divider-block" background-color="#ffffff" padding="36px 18px 0">
+      <mj-column>
+        <mj-divider border-width="1px" border-style="solid" border-color="#9A9A9A" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Divider (receipt) -->
+
+    <!-- START: Gift Receipt -->
+    <mj-section css-class="block receipt-block" background-color="#ffffff" padding="0 18px">
+      <mj-column>
+        <mj-text css-class="wysiwyg receipt-text" font-size="12px" line-height="18px">
+          <p>{user_data~First Name} {user_data~Last Name}<br />{user_data~Address 1} {user_data~Address 2}, {user_data~City}, {user_data~Region} {user_data~Postcode}<br />Donation Date: {receipt_data~createdOn~[MMMM d, yyyy]}<br />Donation Amount: {receipt_data~amount~[en1]}<br />Donation Type: One-time<br />Payment Type: {receipt_data~paymentType}<br />Transaction ID: {receipt_data~txId}</p>
+        </mj-text>
+        <mj-text css-class="wysiwyg receipt-text" font-size="12px" line-height="18px">
+          <p>Your gift may be tax deductible as a charitable contribution for federal income purposes to the extent allowed under applicable law. The ASPCA provided no goods or services as consideration, in whole or in part for your contribution. The ASPCA federal tax identification number is 13-1623829. You may print this page as your receipt for tax purposes.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Gift Receipt -->
+
+    <!-- START: Divider (matching gift) -->
+    <mj-section css-class="block divider-block" background-color="#ffffff" padding="36px 18px 9px">
+      <mj-column>
+        <mj-divider border-width="1px" border-style="solid" border-color="#9A9A9A" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Divider (matching gift) -->
+
+    <!-- START: Heading (centered) -->
+    <mj-section css-class="block heading-block" background-color="#ffffff" padding="0 18px">
+      <mj-column>
+        <mj-text align="center">
+          <h1>Double the Impact of Your Gift</h1>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Heading (centered) -->
+
+    <!-- START: WYSIWYG Text (matching gift) -->
+    <mj-section css-class="block text-block" background-color="#ffffff" padding="0 18px">
+      <mj-column>
+        <mj-text css-class="wysiwyg link-sky">
+          <p>You may be able to double the impact of your gift.  If your company offers a corporate matching gift program, ask your Human Resources department for a form and return it to the ASPCA. Or you can search for your company on our <a href="http://www.aspca.org/ways-to-give/matching-gifts?ms=em_ack_onetime-matchinggifts&amp;initialms=em_ack_onetime-matchinggifts&amp;utm_medium=email&amp;utm_campaign=auto-acknowledgement&amp;utm_source=em_ack_onetime-matchinggifts">matching gift lookup site</a>.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: WYSIWYG Text (matching gift) -->
+
+    <!-- START: Divider (take action) -->
+    <mj-section css-class="block divider-block" background-color="#ffffff" padding="36px 18px 9px">
+      <mj-column>
+        <mj-divider border-width="1px" border-style="solid" border-color="#9A9A9A" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Divider (take action) -->
+
+    <!-- START: Heading (centered, take action) -->
+    <mj-section css-class="block heading-block" background-color="#ffffff" padding="0 18px">
+      <mj-column>
+        <mj-text align="center">
+          <h1>More Ways to Take Action</h1>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="spacer-block block" background-color="#ffffff" padding="0">
+      <mj-column>
+        <mj-spacer height="9px" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Heading (centered, take action) -->
+
+    <!-- START: Images 2x2 -->
+    <!-- Row-first like the catalog block, so on a phone the tiles stack car,
+         volunteer, shop, advocate. The source's two columns stacked car,
+         shop, volunteer, advocate; README lists the difference. -->
+    <mj-section css-class="block image-grid-block" background-color="#ffffff" padding="9px 18px">
+      <mj-column css-class="image-grid-left">
+        <mj-image src="assets/aspca-ack-confirmation-pg-ad-car-donate-Nov2024_r1.jpg" alt="Donate Your Car" href="https://aspca.careasy.org/home?utm_source=ASPCA&utm_medium=email&utm_campaign=confirmationemail-onetime" width="264px" align="left" fluid-on-mobile="true" data-no-link-toggle />
+      </mj-column>
+      <mj-column>
+        <mj-image src="assets/aspca-ack-confirmation-pg-volunteer-or-foster_Jan2025.jpg" alt="Volunteer or Foster" href="https://www.aspca.org/get-involved/volunteer?ms=em_ack_onetime-202411&initialms=em_ack_onetime-202411&utm_medium=email&utm_campaign=auto-acknowledgement&utm_source=onetime-202411" width="264px" align="right" fluid-on-mobile="true" data-no-link-toggle />
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="block image-grid-block" background-color="#ffffff" padding="9px 18px">
+      <mj-column css-class="image-grid-left">
+        <mj-image src="assets/aspca-ack-confirmation-pg-shop-aspca-gear_Nov2024_r1-v2.jpg" alt="Shop ASPCA Gear" href="https://www.amazon.com/shopaspca?channel=DonationConfirmationEmail202411" width="264px" align="left" fluid-on-mobile="true" data-no-link-toggle />
+      </mj-column>
+      <mj-column>
+        <mj-image src="assets/aspca-ack-confirmation-pg-advocate-for-animals_Nov2024_r1.jpg" alt="Advocate for Animals" href="https://www.aspca.org/get-involved/advocacy-center?ms=em_ack_onetime-202411&initialms=em_ack_onetime-202411&utm_medium=email&utm_campaign=auto-acknowledgement&utm_source=onetime-202411" width="264px" align="right" fluid-on-mobile="true" data-no-link-toggle />
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="spacer-block block" background-color="#ffffff" padding="0">
+      <mj-column>
+        <mj-spacer height="9px" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Images 2x2 -->
+
+    <!-- START: Footer (w/ social icons) -->
+    <mj-wrapper css-class="block social-block" background-color="#ffffff" border-bottom="2px solid #EAEAEA" padding="0 18px 18px">
+      <mj-section background-color="#363636" padding="6px 0">
+        <mj-group width="320px" css-class="social-icons" data-no-direction-toggle>
+          <mj-column width="59px"><mj-image src="assets/aspca-social-facebook.png" alt="Facebook" href="https://www.facebook.com/aspca" width="59px" data-no-link-toggle /></mj-column>
+          <mj-column width="49px"><mj-image src="assets/aspca-social-x.png" alt="X" href="https://www.twitter.com/aspca" width="49px" data-no-link-toggle /></mj-column>
+          <mj-column width="52px"><mj-image src="assets/aspca-social-tiktok.png" alt="TikTok" href="https://www.tiktok.com/@aspca" width="52px" data-no-link-toggle /></mj-column>
+          <mj-column width="50px"><mj-image src="assets/aspca-social-youtube.png" alt="YouTube" href="http://www.youtube.com/user/aspca" width="50px" data-no-link-toggle /></mj-column>
+          <mj-column width="51px"><mj-image src="assets/aspca-social-instagram.png" alt="Instagram" href="https://instagram.com/aspca/" width="51px" data-no-link-toggle /></mj-column>
+          <mj-column width="59px"><mj-image src="assets/aspca-social-pinterest.png" alt="Pinterest" href="http://pinterest.com/ASPCA/" width="59px" data-no-link-toggle /></mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+    <mj-section css-class="block footer-block" background-color="#FAFAFA" padding="18px">
+      <mj-column>
+        <mj-text css-class="wysiwyg footer-text link-slate" align="center" color="#656565" font-size="12px" line-height="18px">
+          <p style="margin:0;">&copy;2026 ASPCA. All Rights Reserved.<br />424 East 92nd Street New York, NY 10128<br />Visit <a href="http://www.aspca.org" target="_blank">ASPCA.org</a></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Footer (w/ social icons) -->
+
+    <!-- END: Main Content -->
+  </mj-body>
+</mjml>

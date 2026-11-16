@@ -1,0 +1,6 @@
+node_modules/
+.export-thumbnails.zip
+.DS_Store
+# Regenerable intermediates of qa/screenshots/compare (scripts/qa-render.mjs at 2x)
+qa/screenshots/source-2x/
+qa/screenshots/port-2x/

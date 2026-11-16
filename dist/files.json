@@ -1,0 +1,334 @@
+{
+  "emails": [
+    {
+      "file": "monthly-guardian-thank-you.html",
+      "title": "Monthly (Guardian)",
+      "use": "Donation page thank-you: Recurring Gift message, filtered to monthly",
+      "source": "qa/source/monthly-ack.html"
+    },
+    {
+      "file": "one-time-thank-you.html",
+      "title": "One-time",
+      "use": "Donation page thank-you: Single Gift message",
+      "source": "qa/source/onetime-ack.resolved.html"
+    },
+    {
+      "file": "annual-membership-thank-you.html",
+      "title": "Annual",
+      "use": "Donation page thank-you: Recurring Gift message, filtered to annual",
+      "source": "qa/source/annual-ack.resolved.html"
+    }
+  ],
+  "local": [
+    {
+      "name": "annual-membership-thank-you.html",
+      "bytes": 65072
+    },
+    {
+      "name": "annual-membership-thank-you.mjml",
+      "bytes": 14139
+    },
+    {
+      "name": "assets/aspca-ack-confirmation-pg-ad-car-donate-Nov2024_r1.jpg",
+      "bytes": 143247
+    },
+    {
+      "name": "assets/aspca-ack-confirmation-pg-advocate-for-animals_Nov2024_r1.jpg",
+      "bytes": 165736
+    },
+    {
+      "name": "assets/aspca-ack-confirmation-pg-shop-aspca-gear_Nov2024_r1-v2.jpg",
+      "bytes": 143670
+    },
+    {
+      "name": "assets/aspca-ack-confirmation-pg-volunteer-or-foster_Jan2025.jpg",
+      "bytes": 133432
+    },
+    {
+      "name": "assets/aspca-auto-ack-redesign-top-image.jpg",
+      "bytes": 133431
+    },
+    {
+      "name": "assets/aspca-auto-acknowledgement-email_one-time-matt-sig.jpg",
+      "bytes": 1702
+    },
+    {
+      "name": "assets/aspca-GUARDIAN_CONFIRM_EMAIL_IMG_UPDATE_V3.png",
+      "bytes": 315519
+    },
+    {
+      "name": "assets/aspca-matt-bershadker-signature_guardian.jpg",
+      "bytes": 3294
+    },
+    {
+      "name": "assets/aspca-social-facebook.png",
+      "bytes": 775
+    },
+    {
+      "name": "assets/aspca-social-instagram.png",
+      "bytes": 937
+    },
+    {
+      "name": "assets/aspca-social-pinterest.png",
+      "bytes": 1149
+    },
+    {
+      "name": "assets/aspca-social-tiktok.png",
+      "bytes": 946
+    },
+    {
+      "name": "assets/aspca-social-x.png",
+      "bytes": 1011
+    },
+    {
+      "name": "assets/aspca-social-youtube.png",
+      "bytes": 955
+    },
+    {
+      "name": "assets/aspca-thank-you.jpg",
+      "bytes": 7472
+    },
+    {
+      "name": "main.html",
+      "bytes": 84687
+    },
+    {
+      "name": "main.mjml",
+      "bytes": 20130
+    },
+    {
+      "name": "monthly-guardian-thank-you.html",
+      "bytes": 63839
+    },
+    {
+      "name": "monthly-guardian-thank-you.mjml",
+      "bytes": 15836
+    },
+    {
+      "name": "one-time-thank-you.html",
+      "bytes": 64125
+    },
+    {
+      "name": "one-time-thank-you.mjml",
+      "bytes": 13192
+    },
+    {
+      "name": "styles.css",
+      "bytes": 2348
+    }
+  ],
+  "en": [
+    {
+      "name": "annual-membership-thank-you.html",
+      "bytes": 51156
+    },
+    {
+      "name": "annual-membership-thank-you.mjml",
+      "bytes": 15111
+    },
+    {
+      "name": "en-blocks-import.json",
+      "bytes": 329614
+    },
+    {
+      "name": "en-template-import.json",
+      "bytes": 3413
+    },
+    {
+      "name": "main.html",
+      "bytes": 64139
+    },
+    {
+      "name": "main.mjml",
+      "bytes": 21183
+    },
+    {
+      "name": "monthly-guardian-thank-you.html",
+      "bytes": 49247
+    },
+    {
+      "name": "monthly-guardian-thank-you.mjml",
+      "bytes": 16403
+    },
+    {
+      "name": "one-time-thank-you.html",
+      "bytes": 50370
+    },
+    {
+      "name": "one-time-thank-you.mjml",
+      "bytes": 14164
+    },
+    {
+      "name": "styles.css",
+      "bytes": 2348
+    }
+  ],
+  "uploads": [
+    {
+      "name": "aspca-ack-confirmation-pg-ad-car-donate-Nov2024_r1.jpg",
+      "bytes": 143247
+    },
+    {
+      "name": "aspca-ack-confirmation-pg-advocate-for-animals_Nov2024_r1.jpg",
+      "bytes": 165736
+    },
+    {
+      "name": "aspca-ack-confirmation-pg-shop-aspca-gear_Nov2024_r1-v2.jpg",
+      "bytes": 143670
+    },
+    {
+      "name": "aspca-ack-confirmation-pg-volunteer-or-foster_Jan2025.jpg",
+      "bytes": 133432
+    },
+    {
+      "name": "aspca-auto-ack-redesign-top-image.jpg",
+      "bytes": 133431
+    },
+    {
+      "name": "aspca-auto-acknowledgement-email_one-time-matt-sig.jpg",
+      "bytes": 1702
+    },
+    {
+      "name": "aspca-GUARDIAN_CONFIRM_EMAIL_IMG_UPDATE_V3.png",
+      "bytes": 315519
+    },
+    {
+      "name": "aspca-matt-bershadker-signature_guardian.jpg",
+      "bytes": 3294
+    },
+    {
+      "name": "aspca-social-facebook.png",
+      "bytes": 775
+    },
+    {
+      "name": "aspca-social-instagram.png",
+      "bytes": 937
+    },
+    {
+      "name": "aspca-social-pinterest.png",
+      "bytes": 1149
+    },
+    {
+      "name": "aspca-social-tiktok.png",
+      "bytes": 946
+    },
+    {
+      "name": "aspca-social-x.png",
+      "bytes": 1011
+    },
+    {
+      "name": "aspca-social-youtube.png",
+      "bytes": 955
+    },
+    {
+      "name": "aspca-thank-you.jpg",
+      "bytes": 7472
+    },
+    {
+      "name": "placeholder.png",
+      "bytes": 16702
+    },
+    {
+      "name": "thumbnail-debug-helper.png",
+      "bytes": 22178
+    },
+    {
+      "name": "thumbnail-divider.png",
+      "bytes": 1947
+    },
+    {
+      "name": "thumbnail-footer-links.png",
+      "bytes": 16307
+    },
+    {
+      "name": "thumbnail-footer-w-social-icons.png",
+      "bytes": 28713
+    },
+    {
+      "name": "thumbnail-gift-receipt-boxed.png",
+      "bytes": 83039
+    },
+    {
+      "name": "thumbnail-gift-receipt.png",
+      "bytes": 64086
+    },
+    {
+      "name": "thumbnail-header-image.png",
+      "bytes": 659245
+    },
+    {
+      "name": "thumbnail-heading-centered.png",
+      "bytes": 9512
+    },
+    {
+      "name": "thumbnail-image-1x1-inset.png",
+      "bytes": 172534
+    },
+    {
+      "name": "thumbnail-images-2x2.png",
+      "bytes": 354966
+    },
+    {
+      "name": "thumbnail-preheader-text.png",
+      "bytes": 9563
+    },
+    {
+      "name": "thumbnail-raw-html.png",
+      "bytes": 26383
+    },
+    {
+      "name": "thumbnail-signature.png",
+      "bytes": 20792
+    },
+    {
+      "name": "thumbnail-template-styles.png",
+      "bytes": 16114
+    },
+    {
+      "name": "thumbnail-wysiwyg-text.png",
+      "bytes": 56045
+    }
+  ],
+  "originals": [
+    {
+      "name": "ack-confirmation-pg-ad-car-donate-Nov2024_r1.jpg",
+      "bytes": 143247
+    },
+    {
+      "name": "ack-confirmation-pg-advocate-for-animals_Nov2024_r1.jpg",
+      "bytes": 165736
+    },
+    {
+      "name": "ack-confirmation-pg-shop-aspca-gear_Nov2024_r1-v2.jpg",
+      "bytes": 143670
+    },
+    {
+      "name": "ack-confirmation-pg-volunteer-or-foster_Jan2025.jpg",
+      "bytes": 133432
+    },
+    {
+      "name": "aspca-thank-you.jpg",
+      "bytes": 7472
+    },
+    {
+      "name": "auto-ack-redesign-top-image.jpg",
+      "bytes": 133431
+    },
+    {
+      "name": "auto-acknowledgement-email_one-time-matt-sig.jpg",
+      "bytes": 1702
+    },
+    {
+      "name": "dd6fd768-4736-47d7-8dd2-db157bfbc859.jpg",
+      "bytes": 3294
+    },
+    {
+      "name": "footer_sm_icons_nov2023.png",
+      "bytes": 5426
+    },
+    {
+      "name": "GUARDIAN_CONFIRM_EMAIL_IMG_UPDATE_V3.png",
+      "bytes": 315519
+    }
+  ]
+}
